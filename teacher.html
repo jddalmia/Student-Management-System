@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padhhigh-Teacher</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <header> 
+     <p class="heading">
+        <span class="padh">PADH</span><span id="high">HIGH</span>   <span class="teacher">Teacher</span> 
+    </p>
+    </header>
+    <content>
+        <div class="row">
+            <div class="col-lg-6 col-md-3 col-sm-2">
+        <img src="03.png">
+    </div>
+    <div class="col-lg-6 col-md-9 col-sm-10">
+         <div class="matter">
+        <h4>Enter Student Details</h4>
+        <HR>
+             <br>
+                    <form action="">
+                        <!------------------------rol number section-->
+                        <label class = "select" for="fname">Roll Number:</label>
+                        <input type="number" id="fname" name="fname">
+                          <!------------------------rol number section end------------->
+
+                        <br><br>
+
+                        <!------------------------date section-->
+               
+                         <label class = "select" for="date">Date:</label>
+                         <input   type="date" id="date" name="date">
+                
+                        <!------------------------date section  end------------------->
+
+                        <br><br>
+
+
+                        <!--------------------------------attendance----->
+                        <label class = "select" for="attendance">Attendance:</label>
+                        <select name="topic" id="topic">
+                         <option   value="">Select</option>
+                         <option  value="Operation">Absent</option>
+                         <option   value="Operation">Late</option>
+                         <option   value="Operation">On Time</option>
+                         </select>
+                        <br><br>
+                          <!------------------------------attendance---------->
+
+                         <!--------------------------------subject selection----->
+                         <label class = "select" for="subject">Select Topic:</label>
+                         <select name="topic" id="topic">
+                          <option  value="">Select</option>
+                          <option   value="Operation">Number Operation</option>
+                          </select>
+                         <br><br>
+                           <!------------------------------subject selection end---------->
+
+
+                           <!------------------------------marks ---------->
+                              <label class = "select" for="marks">Marks:</label>
+                             <input  type="number" id="marks" name="marks">
+                            <!------------------------------marks  end---------->   
+                          <br><br>
+                         <input  class="submit-btn" type="submit" value="Submit">
+                     </form>
+                     <br>
+        </div>
+    </div>
+    </div>
+
+
+    </content>
+
+
+</body>
+</html>
